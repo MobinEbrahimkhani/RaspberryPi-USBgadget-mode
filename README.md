@@ -1,13 +1,13 @@
 # RaspberryPi-USBgadget-mode-on-MacOS
+This project was implemented using: Raspberry PI Zero 2 w with RPIOS lite 64-bit, M3 Macbook Air with Sequoia 15.5 MacOS, a PC with Ubuntu 20.04.6 LTS
+
 This repo is not quite a full guide, just the way it worked for me and I felt it would help someone out there.
-Using a Raspberry Pi Zero 2 w with the RPIOS (in my case i used the lite version) and a M3 Macbook air, i had problems with the USB Gadget mode and here my fix.
 
-This project was implemented using: Raspberry PI Zero 2 w, M3 Macbook Air with Sequoia 15.5 MacOS, Ubuntu 20.04.6 LTS 
-
-*note: I did this without using the RPI, so this is just modifying the SDCard with a Ubuntu 20.04.6 LTS*
+*note: I did this without using the RPI, so this is just modifying the SDCard with a Linux PC (which in my case was a Ubuntu)*
 
 *note2: After installing the OS on the SDCard (i used RaspberryPI imager), there are two partitions: bootfs and rootfs. You **cannot** access the rootfs with MacOS or Widnows. The rootfs is ext4 format which MacOS and Windows cannot natively read.*
 
+Here is what i did step-by-step
 ## Steps
  1- In the "bootfs" partition, edit the config.txt file and just the line bellow '[all]' add this line:
  ```dtoverlay=dwc2```
