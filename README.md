@@ -4,9 +4,9 @@ Using a Raspberry Pi Zero 2 w with the RPIOS (in my case i used the lite version
 
 This project was implemented using: Raspberry PI Zero 2 w, M3 Macbook Air with Sequoia 15.5 MacOS, Ubuntu 20.04.6 LTS 
 
-note: I did this without using the RPI, so this is just modifying the SDCard with a Ubuntu 20.04.6 LTS
+*note: I did this without using the RPI, so this is just modifying the SDCard with a Ubuntu 20.04.6 LTS*
 
-note2: After installing the OS on the SDCard (i used RaspberryPI imager), there are two partitions: bootfs and rootfs. You **cannot** access the rootfs with MacOS or Widnows. The rootfs is ext4 format which MacOS and Windows cannot natively read.
+*note2: After installing the OS on the SDCard (i used RaspberryPI imager), there are two partitions: bootfs and rootfs. You **cannot** access the rootfs with MacOS or Widnows. The rootfs is ext4 format which MacOS and Windows cannot natively read.*
 
 ## Steps
  1- In the "bootfs" partition, edit the config.txt file and just the line bellow '[all]' add this line:
@@ -23,5 +23,6 @@ note2: After installing the OS on the SDCard (i used RaspberryPI imager), there 
 5- Opne terminal on your Mac and run the ssh command:
 ```ssh username@raspberrypi.local```
 and after that if everything works fine, it should ask for your RPI's password and after entering your password you should have your RPI's terminal.
-note: If you haven't changed the setting the default are username: pi and password: raspberry.
+*note: If you haven't changed the setting the default are username: pi and password: raspberry.*
 
+**This project was initially inspired by a post on https://forums.raspberrypi.com/viewtopic.php?t=306121&sid=6f23dece3a28a0281b971be8b0ec9763&start=25**
