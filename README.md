@@ -1,5 +1,5 @@
 # RaspberryPi-USBgadget-mode-on-MacOS
-This project was implemented using: Raspberry PI Zero 2 w with RPIOS lite 64-bit, M3 Macbook Air with Sequoia 15.5 MacOS, a PC with Ubuntu 20.04.6 LTS
+This was my setup following these steps: Raspberry PI Zero 2 w with RPIOS lite 64-bit, M3 Macbook Air with Sequoia 15.5 MacOS, a PC with Ubuntu 20.04.6 LTS
 
 This is not quite a full guide, but the way it worked for me and I felt it would help someone out there. 
 
