@@ -19,7 +19,7 @@ Here is what i did
  3- Now moving to the "rootfs" partition, navigate to '/etc/udev/rules.d' and add a file named '90-usb-gadget.rules'. Edit the fiel you just made and add this line:
 ```SUBSYSTEM=="net",ACTION=="add",KERNEL=="usb0",RUN+="/sbin/ifconfig usb0 192.168.1.2 netmask 255.255.255.0",RUN+="/usr/bin/python -c 'import time; time.sleep(20)'",RUN+="/sbin/ip route add 192.168.1.1 dev usb0"```
 
-4- Insert the SD Card on your RPI and Connect your RPI through a Data cable to your Mac device and on your Mac Open System Preferences → Network or System Settings → Network and you should see a device like ```RNDIS/Ethernet Gadget```. That is your RPI and if it is Connected you are all set
+4- Insert the SD Card on your RPI and Connect your RPI through a Data cable to your Mac device and on your Mac Open System Preferences → Network or System Settings → Network and you should see a device like ```RNDIS/Ethernet Gadget```. That is your RPI and if it is Connected you are all set. If not, change teh configure IPv4 to Manually and set the IP:192.168.1.1 and subnet mask:255.255.0.0 leave the Router part be. 
 
 5- Open terminal on your Mac and run the ssh command:
 ```ssh username@raspberrypi.local```. If everything works fine, it should ask for your RPI's password and after entering your password you should be in your RPI's terminal.
