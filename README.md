@@ -1,7 +1,8 @@
 # RaspberryPi-USBgadget-mode-on-MacOS
 This was my setup following these steps: Raspberry PI Zero 2 w with RPIOS lite 64-bit, M3 Macbook Air with Sequoia 15.5 MacOS, a PC with Ubuntu 20.04.6 LTS
 
-This is not quite a full guide, but the way it worked for me and I felt it would help someone out there. 
+This isn’t a full step-by-step guide, but rather a summary of what worked for me — I figured it might help someone running into similar issues.
+Most of the setup is based on another GitHub post, which I’ve linked at the end of this README. 
 
 I did this without using the RPI, so this is just modifying the SDCard with a Linux PC (which in my case was a Ubuntu). 
 
