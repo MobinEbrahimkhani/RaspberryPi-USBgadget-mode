@@ -26,4 +26,4 @@ Here is what i did
 
 *note: If you haven't changed the defaults they should be username: ```pi``` and password: ```raspberry```.*
 
-**This project was initially inspired by a post on https://forums.raspberrypi.com/viewtopic.php?t=306121&sid=6f23dece3a28a0281b971be8b0ec9763&start=25**
+**⚠️ Note: Much of the content and steps in this repository are based on or inspired by (https://github.com/charkster/rpi_gadget_mode/tree/main) and https://forums.raspberrypi.com/viewtopic.php?t=306121&sid=6f23dece3a28a0281b971be8b0ec9763&start=25. This repo mainly documents how I applied those instructions to my specific setup and the additional troubleshooting I encountered along the way.**
